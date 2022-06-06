@@ -16,7 +16,7 @@
     <!-- Main -->
     <main id="mySpace">
 
-        <ul>
+        <ul v-if="email.length === 10">
             <li 
             v-for="(item, i) in email"
             :key="i"> 
